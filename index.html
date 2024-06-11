@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA and GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        CGPA and GPA Calculator
+    </header>
+    <main>
+        <div class="input-group">
+            <label for="totalCredits">Total Credit Hours Studied So Far:</label>
+            <input type="number" id="totalCredits" min="0" required>
+        </div>
+        <div class="input-group">
+            <label for="currentCGPA">Current CGPA:</label>
+            <input type="number" id="currentCGPA" min="0" max="4" step="0.01" required>
+        </div>
+        <div class="input-group">
+            <button id="addCourses">Add Total Number of Courses</button>
+        </div>
+        <div id="coursesContainer"></div>
+        <div class="input-group">
+            <button id="calculateGPA">Calculate GPA</button>
+        </div>
+        <div class="result-group">
+            <label for="calculatedCGPA">Calculated CGPA:</label>
+            <input type="text" id="calculatedCGPA" readonly>
+        </div>
+        <div class="result-group">
+            <label for="semesterGPA">Semester GPA:</label>
+            <input type="text" id="semesterGPA" readonly>
+        </div>
+        <div class="input-group">
+            <button id="reset">Reset</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
