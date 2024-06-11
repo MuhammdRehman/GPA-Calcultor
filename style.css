@@ -5,10 +5,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('BackGround.jpg'); /* Use the uploaded image */
-    background-size: cover; /* Cover the entire background */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-position: center; /* Center the background image */
+    background-color: lightskyblue;
     margin: 0;
 }
 
@@ -34,7 +31,12 @@ main {
 .input-group, .result-group {
     margin-bottom: 15px;
 }
-
+.Text{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow:  lightgray ;
+}
 label {
     display: block;
     margin-bottom: 5px;
