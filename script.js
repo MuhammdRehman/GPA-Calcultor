@@ -19,6 +19,7 @@ document.getElementById('addCourses').addEventListener('click', function() {
   }
 });
 
+
 document.getElementById('calculateGPA').addEventListener('click', function() {
   const totalCredits = parseFloat(document.getElementById('totalCredits').value);
   const currentCGPA = parseFloat(document.getElementById('currentCGPA').value);
