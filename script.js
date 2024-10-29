@@ -15,7 +15,7 @@ document.getElementById('addCourses').addEventListener('click', function() {
           coursesContainer.appendChild(courseDiv);
       }
   } else {
-      alert('Please Try to Fill with Valid Values');
+      alert('Please Enter Valid Values');
   }
 });
 
